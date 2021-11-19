@@ -12,6 +12,8 @@
 | 2017 | CVPR | Universal adversarial perturbations  | Attack | 找到一個通用的對抗點，讓他可以對每張圖都達到攻擊效果 | [link](https://arxiv.org/abs/1610.08401)|
 | 2018 |  | Adversarial Patch | Attack | 捨棄以往思路，不在意擾動預算，設計一個可見的擾動，對所有圖片進行無差別攻擊 | [link](https://arxiv.org/abs/1712.09665)|
 | 2019 |  | ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector | Attack | 對目標檢測器進行攻擊 | [link](https://arxiv.org/abs/1804.05810)|
+| 2019 | ICLR | Adversarial Reprogramming of Neural Networks | Attack | 擾動原本任務，讓目標模型做指定的簡單任務 | [link](https://arxiv.org/abs/1806.11146)|
+|  |  |  |  |  | [link]()|
 |  |  |  |  |  | [link]()|
 
 ## 防禦類
@@ -25,6 +27,9 @@
 | 2016 |  CVPR    | Improving the Robustness of Deep Neural Networks via Stability Training | Defense/對抗訓練 | 在Loss function加入了一個穩定度Loss，對大量擾動樣本進行訓練 | [link](https://arxiv.org/abs/1604.04326) |
 | 2017 |      | APE-GAN: Adversarial Perturbation Elimination with GAN | Defense/GAN | 用GAN將對抗例重構成乾淨的圖片 | [link](https://arxiv.org/abs/1707.05474) |
 | 2017 |      | Training Ensembles to Detect Adversarial Examples | Defense/檢測 | 檢測每一張輸入的圖像是不是對抗例 | [link](https://arxiv.org/abs/1712.04006) |
+| 2018 |      | Adversarial Defense based on Structure-to-Signal Autoencoders | Defense/AE/空間轉換 | 使用一個轉換器做梯度轉換，使原本攻擊者使用的梯度失去參考價值 | [link](https://arxiv.org/abs/1803.07994) |
+| 2018 |      | Adversarial Logit Pairing | Defense/logit pairing | 使用 logit pairing 做對抗訓練，在大型資料集可以取得比傳統對抗訓練更好的效果 | [link](https://arxiv.org/abs/1803.06373) |
+|2018 |   ICLR   | DEFENSE-GAN: PROTECTING CLASSIFIERS AGAINST ADVERSARIAL ATTACKS USING GENERATIVE MODELS | Defense/GAN | 不用對抗樣本，而是自型添加隨機噪聲來訓練生成器 | [link](https://arxiv.org/abs/1805.06605) |
 |  |      |  | Defense/ |  | [link]() |
 
 ## 其他
