@@ -13,9 +13,10 @@
 | 2018 |  | Adversarial Patch | Attack | 捨棄以往思路，不在意擾動預算，設計一個可見的擾動，對所有圖片進行無差別攻擊 | [link](https://arxiv.org/abs/1712.09665)|
 | 2019 |  | ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector | Attack | 對目標檢測器進行攻擊 | [link](https://arxiv.org/abs/1804.05810)|
 | 2019 | ICLR | Adversarial Reprogramming of Neural Networks | Attack | 擾動原本任務，讓目標模型做指定的簡單任務 | [link](https://arxiv.org/abs/1806.11146)|
+| 2018 | CVPR | On the Robustness of Semantic Segmentation Models to Adversarial Attacks | Attack/圖像語意分割 | 第一個對圖語意分割網路對抗攻擊的效果討論論文 | [link](https://arxiv.org/abs/1711.09856)|
 |  |  |  |  |  | [link]()|
 |  |  |  |  |  | [link]()|
-
+|  |  |  |  |  | [link]()|
 ## 防禦類
 
 
