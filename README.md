@@ -14,27 +14,32 @@
 | 2019 |  | ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector | Attack | 對目標檢測器進行攻擊 | [link](https://arxiv.org/abs/1804.05810)|
 | 2019 | ICLR | Adversarial Reprogramming of Neural Networks | Attack | 擾動原本任務，讓目標模型做指定的簡單任務 | [link](https://arxiv.org/abs/1806.11146)|
 | 2018 | CVPR | On the Robustness of Semantic Segmentation Models to Adversarial Attacks | Attack/圖像語意分割 | 第一個對圖語意分割網路對抗攻擊的效果討論論文 | [link](https://arxiv.org/abs/1711.09856)|
-|  |  |  |  |  | [link]()|
+| 2018 |  | Spatially Transformed Adversarial Examples | Attack/空間扭曲 | 提出空間扭曲型的擾動例 | [link](https://arxiv.org/abs/1801.02612)|
 |  |  |  |  |  | [link]()|
 |  |  |  |  |  | [link]()|
 ## 防禦類
 
 
-| 年份 | 出處 | 標題                                              | 類型      | 懶人包                           | link                                     |
-| ---- | ---- | ------------------------------------------------- | --------- | -------------------------------- | ---------------------------------------- |
-| 2017 |  SSP  |  Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks | Defense/蒸餾 | 防禦性蒸餾 : 利用一個大參數模型訓練一個小參數模型 | [link](https://arxiv.org/abs/1511.04508) |
-| 2018 |  CVPR    | Defense against Adversarial Attacks Using High-Level Representation Guided Denoiser | Defense/去噪 | PGD&HGD : 去掉擾動再丟進分類器 | [link](https://arxiv.org/abs/1712.02976) |
-| 2018 |  ICLR    | Mitigating Adversarial Effects Through Randomization | Defense/增加隨機層 | 迭代攻擊的遷移性差，若在進入 CNN model 前對圖片做一些隨機處理，就可以防禦迭代攻擊 | [link](https://arxiv.org/abs/1711.01991) |
-| 2016 |  CVPR    | Improving the Robustness of Deep Neural Networks via Stability Training | Defense/對抗訓練 | 在Loss function加入了一個穩定度Loss，對大量擾動樣本進行訓練 | [link](https://arxiv.org/abs/1604.04326) |
-| 2017 |      | APE-GAN: Adversarial Perturbation Elimination with GAN | Defense/GAN | 用GAN將對抗例重構成乾淨的圖片 | [link](https://arxiv.org/abs/1707.05474) |
-| 2017 |      | Training Ensembles to Detect Adversarial Examples | Defense/檢測 | 檢測每一張輸入的圖像是不是對抗例 | [link](https://arxiv.org/abs/1712.04006) |
-| 2018 |      | Adversarial Defense based on Structure-to-Signal Autoencoders | Defense/AE/空間轉換 | 使用一個轉換器做梯度轉換，使原本攻擊者使用的梯度失去參考價值 | [link](https://arxiv.org/abs/1803.07994) |
-| 2018 |      | Adversarial Logit Pairing | Defense/logit pairing | 使用 logit pairing 做對抗訓練，在大型資料集可以取得比傳統對抗訓練更好的效果 | [link](https://arxiv.org/abs/1803.06373) |
-|2018 |   ICLR   | DEFENSE-GAN: PROTECTING CLASSIFIERS AGAINST ADVERSARIAL ATTACKS USING GENERATIVE MODELS | Defense/GAN | 不用對抗樣本，而是自型添加隨機噪聲來訓練生成器 | [link](https://arxiv.org/abs/1805.06605) |
-|  |      |  | Defense/ |  | [link]() |
+| 年份 | 出處 | 標題                                                                                    | 類型                     | 懶人包                                                                            | link                                     |
+| ---- | ---- | --------------------------------------------------------------------------------------- | ------------------------ | --------------------------------------------------------------------------------- | ---------------------------------------- |
+| 2017 | SSP  | Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks     | Defense/蒸餾             | 防禦性蒸餾 : 利用一個大參數模型訓練一個小參數模型                                 | [link](https://arxiv.org/abs/1511.04508) |
+| 2018 | CVPR | Defense against Adversarial Attacks Using High-Level Representation Guided Denoiser     | Defense/去噪             | PGD&HGD : 去掉擾動再丟進分類器                                                    | [link](https://arxiv.org/abs/1712.02976) |
+| 2018 | ICLR | Mitigating Adversarial Effects Through Randomization                                    | Defense/增加隨機層       | 迭代攻擊的遷移性差，若在進入 CNN model 前對圖片做一些隨機處理，就可以防禦迭代攻擊 | [link](https://arxiv.org/abs/1711.01991) |
+| 2016 | CVPR | Improving the Robustness of Deep Neural Networks via Stability Training                 | Defense/對抗訓練         | 在Loss function加入了一個穩定度Loss，對大量擾動樣本進行訓練                       | [link](https://arxiv.org/abs/1604.04326) |
+| 2017 |      | APE-GAN: Adversarial Perturbation Elimination with GAN                                  | Defense/GAN              | 用GAN將對抗例重構成乾淨的圖片                                                     | [link](https://arxiv.org/abs/1707.05474) |
+| 2017 |      | Training Ensembles to Detect Adversarial Examples                                       | Defense/檢測             | 檢測每一張輸入的圖像是不是對抗例                                                  | [link](https://arxiv.org/abs/1712.04006) |
+| 2018 |      | Adversarial Defense based on Structure-to-Signal Autoencoders                           | Defense/AE/空間轉換      | 使用一個轉換器做梯度轉換，使原本攻擊者使用的梯度失去參考價值                      | [link](https://arxiv.org/abs/1803.07994) |
+| 2018 |      | Adversarial Logit Pairing                                                               | Defense/logit pairing    | 使用 logit pairing 做對抗訓練，在大型資料集可以取得比傳統對抗訓練更好的效果       | [link](https://arxiv.org/abs/1803.06373) |
+| 2018 | ICLR | DEFENSE-GAN: PROTECTING CLASSIFIERS AGAINST ADVERSARIAL ATTACKS USING GENERATIVE MODELS | Defense/GAN              | 不用對抗樣本，而是自型添加隨機噪聲來訓練生成器                                    | [link](https://arxiv.org/abs/1805.06605) |
+| 2018 | ICLR | Countering Adversarial Images using Input Transformations                               | Defense/探討輸入轉換防禦 | 討論各種輸入轉換防禦法的效果與特性                                                | [link](https://arxiv.org/abs/1711.00117) |
+|  2016    |      |        Foveation-based Mechanisms Alleviate Adversarial Examples                                                                                 | Defense/凹型機制                 |                                             使用凹型機制來緩解對抗攻擊的效果                                      | [link](https://arxiv.org/abs/1511.06292)                                 |
+|      |      |                                                                                         | Defense/                 |                                                                                   | [link]()                                 |
+|      |      |                                                                                         | Defense/                 |                                                                                   | [link]()                                 |
 
 ## 其他
 | 年份 | 出處 | 標題                                              | 類型      | 懶人包                           | link                                     |
 | ---- | ---- | ------------------------------------------------- | --------- | -------------------------------- | ---------------------------------------- |
 | 2017 |      | Towards Evaluating the Robustness of Neural Networks | 公式推導 | 將求對抗例的過程推導成一個最優化問題 | [link](https://arxiv.org/abs/1608.04644) |
+| 2017 |      | Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong | 集成防禦 | 探討集合多個弱的防禦法是否能得到一個強大的防禦法，結論是No | [link](https://arxiv.org/abs/1706.04701) |
+| 2018 |  ICLR    | Towards Deep Learning Models Resistant to Adversarial Attacks | 整合 | 將攻擊與防禦的模型合進同一個公式中 | [link](https://arxiv.org/abs/1706.06083) |
 |  |      |  |  |  | [link]() |
