@@ -15,7 +15,7 @@
 | 2019 | ICLR | Adversarial Reprogramming of Neural Networks | Attack | 擾動原本任務，讓目標模型做指定的簡單任務 | [link](https://arxiv.org/abs/1806.11146)|
 | 2018 | CVPR | On the Robustness of Semantic Segmentation Models to Adversarial Attacks | Attack/圖像語意分割 | 第一個對圖語意分割網路對抗攻擊的效果討論論文 | [link](https://arxiv.org/abs/1711.09856)|
 | 2018 |  | Spatially Transformed Adversarial Examples | Attack/空間扭曲 | 提出空間扭曲型的擾動例 | [link](https://arxiv.org/abs/1801.02612)|
-|  |  |  |  |  | [link]()|
+| 2019 |  | One pixel attack for fooling deep neural networks | Attack/單點攻擊 | 不管預算而專注於一點的攻擊 | [link](https://arxiv.org/abs/1710.08864)|
 |  |  |  |  |  | [link]()|
 ## 防禦類
 
@@ -31,10 +31,13 @@
 | 2018 |      | Adversarial Defense based on Structure-to-Signal Autoencoders                           | Defense/AE/空間轉換      | 使用一個轉換器做梯度轉換，使原本攻擊者使用的梯度失去參考價值                      | [link](https://arxiv.org/abs/1803.07994) |
 | 2018 |      | Adversarial Logit Pairing                                                               | Defense/logit pairing    | 使用 logit pairing 做對抗訓練，在大型資料集可以取得比傳統對抗訓練更好的效果       | [link](https://arxiv.org/abs/1803.06373) |
 | 2018 | ICLR | DEFENSE-GAN: PROTECTING CLASSIFIERS AGAINST ADVERSARIAL ATTACKS USING GENERATIVE MODELS | Defense/GAN              | 不用對抗樣本，而是自型添加隨機噪聲來訓練生成器                                    | [link](https://arxiv.org/abs/1805.06605) |
-| 2018 | ICLR | Countering Adversarial Images using Input Transformations                               | Defense/探討輸入轉換防禦 | 討論各種輸入轉換防禦法的效果與特性                                                | [link](https://arxiv.org/abs/1711.00117) |
-|  2016    |      |        Foveation-based Mechanisms Alleviate Adversarial Examples                                                                                 | Defense/凹型機制                 |                                             使用凹型機制來緩解對抗攻擊的效果                                      | [link](https://arxiv.org/abs/1511.06292)                                 |
-|      |      |                                                                                         | Defense/                 |                                                                                   | [link]()                                 |
-|      |      |                                                                                         | Defense/                 |                                                                                   | [link]()                                 |
+| 2018 | ICLR | Countering Adversarial Images using Input Transformations                               | Defense/探討輸入轉換防禦 | 討論各種輸入轉換防禦法的效果與特性      | [link](https://arxiv.org/abs/1711.00117) |
+| 2016 |      | Foveation-based Mechanisms Alleviate Adversarial Examples                               | Defense/凹型機制         | 使用凹型機制來緩解對抗攻擊的效果    | [link](https://arxiv.org/abs/1511.06292) |
+|  2017   |   CCS   |     MagNet: a Two-Pronged Defense against Adversarial Examples    | Defense/檢測與重構                 |  提出了MagNet架構過濾掉擾動大的對抗樣本，重構擾動小的樣本讓他變回乾淨樣   | [link](https://arxiv.org/abs/1705.09064)   |
+|      |      |    | Defense/                 |    | [link]()    |
+|      |      |    | Defense/                 |    | [link]()    |
+|      |      |    | Defense/                 |    | [link]()    |
+|      |      |    | Defense/                 |    | [link]()    |
 
 ## 其他
 | 年份 | 出處 | 標題                                              | 類型      | 懶人包                           | link                                     |
@@ -42,4 +45,6 @@
 | 2017 |      | Towards Evaluating the Robustness of Neural Networks | 公式推導 | 將求對抗例的過程推導成一個最優化問題 | [link](https://arxiv.org/abs/1608.04644) |
 | 2017 |      | Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong | 集成防禦 | 探討集合多個弱的防禦法是否能得到一個強大的防禦法，結論是No | [link](https://arxiv.org/abs/1706.04701) |
 | 2018 |  ICLR    | Towards Deep Learning Models Resistant to Adversarial Attacks | 整合 | 將攻擊與防禦的模型合進同一個公式中 | [link](https://arxiv.org/abs/1706.06083) |
+| 2017 |      | Intriguing Properties of Adversarial Examples | 對抗樣本產生 | 作者認為對抗樣本是因為logit機率分不具有power law，本身模型就容易被誤分類到第二高概率的label  | [link](https://arxiv.org/abs/1711.02846) |
+|  |      |  |  |  | [link]() |
 |  |      |  |  |  | [link]() |
