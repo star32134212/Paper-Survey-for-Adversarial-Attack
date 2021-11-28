@@ -2,21 +2,21 @@
 
 ## 攻擊類
 
-| 年份 | 出處 | 標題                                              | 類型      | 懶人包                           | link                                     |
-| ---- | ---- | ------------------------------------------------- | --------- | -------------------------------- | ---------------------------------------- |
-| 2015 |   ICLR   | Explaining and Harnessing Adversarial Examples | Attack | FGSM : 一拳超人攻擊法 | [link](https://arxiv.org/abs/1412.6572) |
-| 2017 |   ICLR   | Adversarial examples in the physical world | Attack | IFGSM : FGSM的推廣，用迭代的方式分多步進行擾動，在白箱效果比 FGSM 好 | [link](https://arxiv.org/abs/1607.02533) |
-| 2016 | CVPR | DeepFool: a simple and accurate method to fool deep neural networks  | Attack | Deepfool : 會算可以擾動成功的最小擾動 | [link](https://arxiv.org/pdf/1511.04599.pdf) |
-| 2017 |  | Towards Evaluating the Robustness of Neural Networks | Attack | C&W : 與IFGSD一樣的迭代攻擊 | [link](https://arxiv.org/abs/1608.04644) |
-| 2014 |  | Intriguing properties of neural networks | Attack | 以能達到攻擊目的的前提下最小化擾動預算 | [link](https://arxiv.org/abs/1312.6199)|
-| 2017 | CVPR | Universal adversarial perturbations  | Attack | 找到一個通用的對抗點，讓他可以對每張圖都達到攻擊效果 | [link](https://arxiv.org/abs/1610.08401)|
-| 2018 |  | Adversarial Patch | Attack | 捨棄以往思路，不在意擾動預算，設計一個可見的擾動，對所有圖片進行無差別攻擊 | [link](https://arxiv.org/abs/1712.09665)|
-| 2019 |  | ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector | Attack | 對目標檢測器進行攻擊 | [link](https://arxiv.org/abs/1804.05810)|
-| 2019 | ICLR | Adversarial Reprogramming of Neural Networks | Attack | 擾動原本任務，讓目標模型做指定的簡單任務 | [link](https://arxiv.org/abs/1806.11146)|
-| 2018 | CVPR | On the Robustness of Semantic Segmentation Models to Adversarial Attacks | Attack/圖像語意分割 | 第一個對圖語意分割網路對抗攻擊的效果討論論文 | [link](https://arxiv.org/abs/1711.09856)|
-| 2018 |  | Spatially Transformed Adversarial Examples | Attack/空間扭曲 | 提出空間扭曲型的擾動例 | [link](https://arxiv.org/abs/1801.02612)|
-| 2019 |  | One pixel attack for fooling deep neural networks | Attack/單點攻擊 | 不管預算而專注於一點的攻擊 | [link](https://arxiv.org/abs/1710.08864)|
-|  |  |  |  |  | [link]()|
+| 年份 | 出處 | 標題                                                                             | 類型                | 懶人包                                                                     | link                                         |
+| ---- | ---- | -------------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------------------------- | -------------------------------------------- |
+| 2015 | ICLR | Explaining and Harnessing Adversarial Examples                                   | Attack              | FGSM : 一拳超人攻擊法                                                      | [link](https://arxiv.org/abs/1412.6572)      |
+| 2017 | ICLR | Adversarial examples in the physical world                                       | Attack              | IFGSM : FGSM的推廣，用迭代的方式分多步進行擾動，在白箱效果比 FGSM 好       | [link](https://arxiv.org/abs/1607.02533)     |
+| 2016 | CVPR | DeepFool: a simple and accurate method to fool deep neural networks              | Attack              | Deepfool : 會算可以擾動成功的最小擾動                                      | [link](https://arxiv.org/pdf/1511.04599.pdf) |
+| 2017 |      | Towards Evaluating the Robustness of Neural Networks                             | Attack              | C&W : 與IFGSD一樣的迭代攻擊                                                | [link](https://arxiv.org/abs/1608.04644)     |
+| 2014 |      | Intriguing properties of neural networks                                         | Attack              | 以能達到攻擊目的的前提下最小化擾動預算                                     | [link](https://arxiv.org/abs/1312.6199)      |
+| 2017 | CVPR | Universal adversarial perturbations                                              | Attack              | 找到一個通用的對抗點，讓他可以對每張圖都達到攻擊效果                       | [link](https://arxiv.org/abs/1610.08401)     |
+| 2018 |      | Adversarial Patch                                                                | Attack              | 捨棄以往思路，不在意擾動預算，設計一個可見的擾動，對所有圖片進行無差別攻擊 | [link](https://arxiv.org/abs/1712.09665)     |
+| 2019 |      | ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector | Attack              | 對目標檢測器進行攻擊                                                       | [link](https://arxiv.org/abs/1804.05810)     |
+| 2019 | ICLR | Adversarial Reprogramming of Neural Networks                                     | Attack              | 擾動原本任務，讓目標模型做指定的簡單任務                                   | [link](https://arxiv.org/abs/1806.11146)     |
+| 2018 | CVPR | On the Robustness of Semantic Segmentation Models to Adversarial Attacks         | Attack/圖像語意分割 | 第一個對圖語意分割網路對抗攻擊的效果討論論文                               | [link](https://arxiv.org/abs/1711.09856)     |
+| 2018 |      | Spatially Transformed Adversarial Examples                                       | Attack/空間扭曲     | 提出空間扭曲型的擾動例                                                     | [link](https://arxiv.org/abs/1801.02612)     |
+| 2019 |      | One pixel attack for fooling deep neural networks                                | Attack/單點攻擊     | 不管預算而專注於一點的攻擊                                                 | [link](https://arxiv.org/abs/1710.08864)     |
+|      |      |                                                                                  |                     |                                                                            | [link]()                                     |
 ## 防禦類
 
 
@@ -46,5 +46,5 @@
 | 2017 |      | Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong | 集成防禦 | 探討集合多個弱的防禦法是否能得到一個強大的防禦法，結論是No | [link](https://arxiv.org/abs/1706.04701) |
 | 2018 |  ICLR    | Towards Deep Learning Models Resistant to Adversarial Attacks | 整合 | 將攻擊與防禦的模型合進同一個公式中 | [link](https://arxiv.org/abs/1706.06083) |
 | 2017 |      | Intriguing Properties of Adversarial Examples | 對抗樣本產生 | 作者認為對抗樣本是因為logit機率分不具有power law，本身模型就容易被誤分類到第二高概率的label  | [link](https://arxiv.org/abs/1711.02846) |
-|  |      |  |  |  | [link]() |
+| 2018 |      | Adversarial Examples: Attacks and Defenses for Deep Learning | 統整型論文 | 整理了近年對抗攻擊與防禦的發展 | [link](https://arxiv.org/abs/1712.07107) |
 |  |      |  |  |  | [link]() |
