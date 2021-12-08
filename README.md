@@ -34,7 +34,8 @@
 | 2018 | ICLR | Countering Adversarial Images using Input Transformations                               | Defense/探討輸入轉換防禦 | 討論各種輸入轉換防禦法的效果與特性      | [link](https://arxiv.org/abs/1711.00117) |
 | 2016 |      | Foveation-based Mechanisms Alleviate Adversarial Examples                               | Defense/凹型機制         | 使用凹型機制來緩解對抗攻擊的效果    | [link](https://arxiv.org/abs/1511.06292) |
 |  2017   |   CCS   |     MagNet: a Two-Pronged Defense against Adversarial Examples    | Defense/檢測與重構                 |  提出了MagNet架構過濾掉擾動大的對抗樣本，重構擾動小的樣本讓他變回乾淨樣   | [link](https://arxiv.org/abs/1705.09064)   |
-|      |      |    | Defense/                 |    | [link]()    |
+|  2020   |  NIPS    |  On the Trade-off between Adversarial
+and Backdoor Robustness  | Defense/防禦平衡                 |  對抗訓練容易被後門攻擊，因此要找一個同時衡量後門攻擊與對抗攻擊的防禦方法  | [link](http://www.cs.nthu.edu.tw/~shwu/pubs/shwu-neurips-20.pdf)    |
 |      |      |    | Defense/                 |    | [link]()    |
 |      |      |    | Defense/                 |    | [link]()    |
 |      |      |    | Defense/                 |    | [link]()    |
@@ -47,4 +48,5 @@
 | 2018 |  ICLR    | Towards Deep Learning Models Resistant to Adversarial Attacks | 整合 | 將攻擊與防禦的模型合進同一個公式中 | [link](https://arxiv.org/abs/1706.06083) |
 | 2017 |      | Intriguing Properties of Adversarial Examples | 對抗樣本產生 | 作者認為對抗樣本是因為logit機率分不具有power law，本身模型就容易被誤分類到第二高概率的label  | [link](https://arxiv.org/abs/1711.02846) |
 | 2018 |      | Adversarial Examples: Attacks and Defenses for Deep Learning | 統整型論文 | 整理了近年對抗攻擊與防禦的發展 | [link](https://arxiv.org/abs/1712.07107) |
+|  |      |  |  |  | [link]() |
 |  |      |  |  |  | [link]() |
