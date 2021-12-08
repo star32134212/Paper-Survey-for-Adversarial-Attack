@@ -15,7 +15,7 @@
 | 2019 | ICLR | Adversarial Reprogramming of Neural Networks                                     | Attack              | 擾動原本任務，讓目標模型做指定的簡單任務                                   | [link](https://arxiv.org/abs/1806.11146)     |
 | 2018 | CVPR | On the Robustness of Semantic Segmentation Models to Adversarial Attacks         | Attack/圖像語意分割 | 第一個對圖語意分割網路對抗攻擊的效果討論論文                               | [link](https://arxiv.org/abs/1711.09856)     |
 | 2018 |      | Spatially Transformed Adversarial Examples                                       | Attack/空間扭曲     | 提出空間扭曲型的擾動例                                                     | [link](https://arxiv.org/abs/1801.02612)     |
-| 2019 |      | One pixel attack for fooling deep neural networks                                | Attack/單點攻擊     | 不管預算而專注於一點的攻擊                                                 | [link](https://arxiv.org/abs/1710.08864)     |
+| 2019 |      | One pixel attack for fooling deep neural networks                                | Attack/單點攻擊     | 不管預算而專注於一點的攻擊   | [link](https://arxiv.org/abs/1710.08864)     |
 |      |      |                                                                                  |                     |                                                                            | [link]()                                     |
 ## 防禦類
 
@@ -34,8 +34,7 @@
 | 2018 | ICLR | Countering Adversarial Images using Input Transformations                               | Defense/探討輸入轉換防禦 | 討論各種輸入轉換防禦法的效果與特性      | [link](https://arxiv.org/abs/1711.00117) |
 | 2016 |      | Foveation-based Mechanisms Alleviate Adversarial Examples                               | Defense/凹型機制         | 使用凹型機制來緩解對抗攻擊的效果    | [link](https://arxiv.org/abs/1511.06292) |
 |  2017   |   CCS   |     MagNet: a Two-Pronged Defense against Adversarial Examples    | Defense/檢測與重構                 |  提出了MagNet架構過濾掉擾動大的對抗樣本，重構擾動小的樣本讓他變回乾淨樣   | [link](https://arxiv.org/abs/1705.09064)   |
-|  2020   |  NIPS    |  On the Trade-off between Adversarial
-and Backdoor Robustness  | Defense/防禦平衡                 |  對抗訓練容易被後門攻擊，因此要找一個同時衡量後門攻擊與對抗攻擊的防禦方法  | [link](http://www.cs.nthu.edu.tw/~shwu/pubs/shwu-neurips-20.pdf)    |
+|  2020   |  NIPS    |  On the Trade-off between Adversarial and Backdoor Robustness  | Defense/防禦平衡   |  對抗訓練容易被後門攻擊，因此要找一個同時衡量後門攻擊與對抗攻擊的防禦方法  | [link](http://www.cs.nthu.edu.tw/~shwu/pubs/shwu-neurips-20.pdf)    |
 |      |      |    | Defense/                 |    | [link]()    |
 |      |      |    | Defense/                 |    | [link]()    |
 |      |      |    | Defense/                 |    | [link]()    |
